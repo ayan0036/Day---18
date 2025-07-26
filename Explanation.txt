@@ -1,0 +1,11 @@
+ Explanation  How State Changes Affect the UI: 
+
+In React, the useState hook allows us to create and manage state inside functional components. Whenever the state (in this case, count) is updated using setCount, React automatically re-renders the component UI to reflect the new value. 
+
+For example: 
+
+When the Increment button is clicked, setCount(count + 1) updates the count state, and React updates the displayed count in the browser. 
+
+Similarly, clicking Decrement button reduces the count and the UI instantly reflects this change. 
+
+This process is called reactive rendering, where the UI always stays in sync with the current state.
